@@ -1,0 +1,33 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.bordered-image {
+    float: left;
+    padding-right: 30%;
+}
+.right-align {
+    float: right;
+    padding-left: 30%;
+    border: 5px black;
+}
